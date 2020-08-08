@@ -24,7 +24,7 @@ const routes = [
     component: () => import('./views/Student'),
   },
   {
-    path: '/about',
+    path: '/about/:uerId',
     component: () => import('./views/About'),
   },
   {
@@ -48,6 +48,11 @@ const routes = [
         component: ()=> import('./views/Download')
       },
     ]
+  },
+  {
+    path: '/question/:id',
+    name: 'question',
+    component: ()=> import('./views/Question')
   }
 ];
 

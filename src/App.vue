@@ -7,7 +7,7 @@
         <router-link to="/home">首页</router-link>
         <router-link to="/learn">课程学习</router-link>
         <router-link to="/student">学员展示</router-link>
-        <router-link to="/about">关于</router-link>
+        <router-link to="/about/">关于</router-link>
         <router-link to="/activity">社区</router-link>
       </div>
     </div>
@@ -54,7 +54,7 @@ export default {
 
 .nav-list a.router-link-active {
   font-weight: bold;
-  color: red;
+  color: rgb(41, 172, 150);
 }
 
 .container {
