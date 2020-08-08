@@ -54,7 +54,7 @@ export default {
 
 .nav-list a.router-link-active {
   font-weight: bold;
-  color: rgb(41, 172, 150);
+  color: rgb(31, 23, 143);
 }
 
 .container {
