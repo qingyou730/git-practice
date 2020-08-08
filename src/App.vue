@@ -52,9 +52,10 @@ export default {
   text-decoration: none;
 }
 
-.nav-list a.router-link-active {
+ a.router-link-active {
   font-weight: bold;
   color: rgb(31, 23, 143);
+  font-size: 24px;
 }
 
 .container {
