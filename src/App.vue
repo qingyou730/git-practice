@@ -2,7 +2,7 @@
   <div id="app">
 
     <div class="nav-box">
-      <div class="logo">项目练习</div>
+      <div class="logo" @click="goFristPage">项目练习</div>
       <div class="nav-list">
         <router-link to="/home">首页</router-link>
         <router-link to="/learn">课程学习</router-link>
@@ -23,6 +23,13 @@ export default {
   name: 'app',
   components: {
   },
+  methods: {
+    goFristPage() {
+      console.log(this.$router);
+      this.$router.push('/home');
+      console.log(this.$route);
+    },
+  }
 }
 </script>
 
