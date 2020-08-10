@@ -54,7 +54,11 @@ export default {
 
  a.router-link-active {
   font-weight: bold;
+<<<<<<< HEAD
   color: rgb(116, 25, 111);
+=======
+  color: rgb(43, 180, 88);
+>>>>>>> remotes/origin/dev_wr
   font-size: 24px;
 }
 
