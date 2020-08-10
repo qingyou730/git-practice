@@ -54,7 +54,7 @@ export default {
 
  a.router-link-active {
   font-weight: bold;
-  color: red;
+  color: blue;
   font-size: 24px;
 }
 
